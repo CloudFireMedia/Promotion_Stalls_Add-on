@@ -1,9 +1,6 @@
 var SCRIPT_NAME = "Promotion Stalls Bound Script"
 var SCRIPT_VERSION = "v1.6"
 
-var PROPERTIES = PropertiesService.getDocumentProperties()
-var LOCK = LockService.getDocumentLock()
-
 function onInstall() {
   startNotificationTriggers()
   onOpen()
@@ -27,11 +24,11 @@ function onOpen() {
     .addToUi();   
 }
 
-function saturday()                  {PromotionStalls.saturday                  (null, null, PROPERTIES, LOCK)}
-function sunday()                    {PromotionStalls.sunday                    (null, null, PROPERTIES, LOCK)}
-function startNotificationTriggers() {PromotionStalls.startNotificationTriggers (null, null, PROPERTIES, LOCK)}
-function stopNotificationTriggers()  {PromotionStalls.stopNotificationTriggers  (null, null, PROPERTIES, LOCK)}
-function hideEmptyColumns()          {PromotionStalls.hideEmptyColumns          (null, null, PROPERTIES, LOCK)}
-function unHideAllColumns()          {PromotionStalls.unHideAllColumns          (null, null, PROPERTIES, LOCK)}
-function deleteExpiredRows()         {PromotionStalls.deleteExpiredRows         (null, null, PROPERTIES, LOCK)}
-function addNewRow()                 {PromotionStalls.addNewRow                 (null, null, PROPERTIES, LOCK)}
+function saturday()                  {PromotionStalls.saturday                  ()}
+function sunday()                    {PromotionStalls.sunday                    ()}
+function startNotificationTriggers() {PromotionStalls.startNotificationTriggers ()}
+function stopNotificationTriggers()  {PromotionStalls.stopNotificationTriggers  ()}
+function hideEmptyColumns()          {PromotionStalls.hideEmptyColumns          ()}
+function unHideAllColumns()          {PromotionStalls.unHideAllColumns          ()}
+function deleteExpiredRows()         {PromotionStalls.deleteExpiredRows         ()}
+function addNewRow()                 {PromotionStalls.addNewRow                 ()}
