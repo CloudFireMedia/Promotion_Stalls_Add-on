@@ -1,0 +1,11 @@
+{
+  "timeZone": "America/Mexico_City",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "PromotionStalls",
+      "libraryId": "1zKJWfd3j2iws6Cdlu5pZ9cUP3W6es_eByts5-aGMoPWfmlj0w8pIO4aL",
+      "version": "14"
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER"
+}
