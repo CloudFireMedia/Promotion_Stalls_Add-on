@@ -1,5 +1,5 @@
 var SCRIPT_NAME = "Promotion Stalls Bound Script"
-var SCRIPT_VERSION = "v1.6"
+var SCRIPT_VERSION = "v1.7"
 
 function onInstall() {
   startNotificationTriggers()
